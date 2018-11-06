@@ -1,4 +1,6 @@
-// When the if keyword is used, we pass to javascript an expression which it can evaluate to true of false
+// When the if keyword is used, 
+// we pass to javascript an expression which it can evaluate to true of false
+//  as illustrated in the program below
 // 
 
 var getDieRoll = (diceSize) => {
