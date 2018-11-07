@@ -9,7 +9,7 @@ var getDieRoll = (diceSize) => {
 };
 
 var roll = getDieRoll(6)
-
+// If construct
 if (roll >= 5){
     console.log("Great roll!")
 }
@@ -20,3 +20,19 @@ else {
     console.log("That was ok roll")
 }
 console.log("You rolled " + roll)
+
+// while ... do construct
+// while(roll < 4){
+//     console.log(roll)
+// }
+
+do {
+    var stars = (roll) => {
+        for(var i = 0; i < roll; i++) {
+        console.log("That is i", roll)
+        return ("*");
+    }};
+    console.log("Your roll was " + roll, stars(roll))
+} while(roll > 5)
+
+// for loop
